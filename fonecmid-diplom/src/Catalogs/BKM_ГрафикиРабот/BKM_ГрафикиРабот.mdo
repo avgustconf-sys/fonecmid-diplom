@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2f46c1a-a48f-4d83-bd51-b090b09bf2e0">
+  <producedTypes>
+    <objectType typeId="38200482-f783-4296-903c-83822ae7fbe3" valueTypeId="3e2be555-3c07-4cae-9d59-3b0baf346bf6"/>
+    <refType typeId="423619ab-5bcc-4c5e-9a1e-13e2dd587e2b" valueTypeId="f14a9aa5-014d-47f6-a340-d18df736ac81"/>
+    <selectionType typeId="2502f4fb-44de-4a0a-88bc-26744625396c" valueTypeId="03eae2f0-d78f-4d81-bd0d-3db309fcc70b"/>
+    <listType typeId="50dd2889-5526-45a6-9326-17f00f9fa5c1" valueTypeId="553561a8-9af2-4341-b90e-3e98c9577b3b"/>
+    <managerType typeId="bf27862a-74e0-4e09-8a2e-722b7a0ff738" valueTypeId="2c23515e-078d-4fac-bbeb-1f1d8af0151e"/>
+  </producedTypes>
+  <name>BKM_ГрафикиРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM графики работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.BKM_ГрафикиРабот.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.BKM_ГрафикиРабот.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
