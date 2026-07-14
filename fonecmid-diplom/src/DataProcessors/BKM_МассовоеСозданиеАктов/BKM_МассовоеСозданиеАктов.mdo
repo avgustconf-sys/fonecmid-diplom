@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38b3c668-6619-4698-9fb3-354505e73d6b">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38b3c668-6619-4698-9fb3-354505e73d6b">
   <producedTypes>
     <objectType typeId="de75346e-7fe7-42de-96f2-5a4f2a95ea2e" valueTypeId="4db850d8-f29f-4816-84d4-57f476067a6f"/>
     <managerType typeId="dcddd410-bb80-4268-87f7-97572e893320" valueTypeId="5696ac56-32a2-4597-829d-f8f98f7a5199"/>
@@ -10,4 +10,51 @@
     <value>BKM массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.BKM_МассовоеСозданиеАктов.Form.Форма</defaultForm>
+  <tabularSections uuid="942696e1-de6f-480a-b58c-f3f35d217af4">
+    <producedTypes>
+      <objectType typeId="28e3dde9-6fcb-4f2b-bb67-4be70169906f" valueTypeId="d6ad67bd-8d4d-47ba-ab87-99ab6ba23104"/>
+      <rowType typeId="792f32e7-a672-4cdf-b9d7-4ced4a4a9e3b" valueTypeId="31bf687e-96c8-435a-82f4-fe0a0d66c088"/>
+    </producedTypes>
+    <name>СписокДоговоровИРеализаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список договоров и реализаций</value>
+    </synonym>
+    <attributes uuid="b0951832-c68e-4444-a6df-978cb6ca07a5">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3439aaaf-64f5-431c-9676-bcc9952c8124">
+      <name>Реализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="70f1d5df-a8ed-4f1d-a1f6-5a3274d388d7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

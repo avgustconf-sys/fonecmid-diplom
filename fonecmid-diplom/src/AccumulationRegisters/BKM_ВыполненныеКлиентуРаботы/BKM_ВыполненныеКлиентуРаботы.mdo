@@ -8,10 +8,10 @@
     <recordKeyType typeId="603ef26f-6738-4a27-bcdb-f55db383fa76" valueTypeId="c2f78bbe-5eb6-402e-9a84-d7a02d652df8"/>
     <recordType typeId="6f389dd7-068f-4875-a1e2-9995f7ef41a1" valueTypeId="2ac88842-1b9a-41d3-8a3e-805b738c78d4"/>
   </producedTypes>
-  <name>ВКМ_ВыполненныеКлиентуРаботы</name>
+  <name>BKM_ВыполненныеКлиентуРаботы</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ выполненные клиенту работы</value>
+    <value>BKM выполненные клиенту работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
