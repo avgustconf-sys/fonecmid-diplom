@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a8a9692-3dbe-42c0-b3a4-8371f084ce97">
+  <producedTypes>
+    <selectionType typeId="9ee740fd-502b-4cd0-94d4-25802a6537b7" valueTypeId="573e8a6a-00ed-4843-908e-10bcded9b89c"/>
+    <listType typeId="7521d870-9c63-473c-80b7-436fc62b4c65" valueTypeId="e4231119-901b-4bb5-a808-e7ce370f48eb"/>
+    <managerType typeId="a1099f88-5ba8-4db6-9f93-2a89d3fce2ee" valueTypeId="9a8565f5-03d3-423a-9d36-310176e29479"/>
+    <recordSetType typeId="1eb65efc-b933-41ab-b7c8-fca9191c1f08" valueTypeId="17694344-5a6c-494f-8c38-ee95c1e43255"/>
+    <recordKeyType typeId="e8593aff-302e-4ea5-8581-3806b6294531" valueTypeId="d65baac6-9566-47a1-babf-271e208910ea"/>
+    <recordType typeId="7076fd4f-2bd0-4608-8bdd-6adf90f9fc46" valueTypeId="189a9f83-292b-440f-8e18-2ee7e5fab422"/>
+    <recalcsType typeId="105bf171-f88c-4875-b702-9b93902419bb" valueTypeId="193f28e4-b719-4c78-b800-fae8dca6d191"/>
+  </producedTypes>
+  <name>BKM_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.BKM_ГрафикиРабот</schedule>
+  <scheduleValue>InformationRegister.BKM_ГрафикиРабот.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister.BKM_ГрафикиРабот.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.BKM_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:CalculationRegister>
