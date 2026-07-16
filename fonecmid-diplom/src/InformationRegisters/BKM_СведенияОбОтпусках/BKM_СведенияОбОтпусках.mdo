@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3beea536-3327-4573-aed0-bb62287d6929">
+  <producedTypes>
+    <selectionType typeId="34042480-6027-4e23-af2c-58112551120d" valueTypeId="d2705545-6c53-4ae0-b78d-9ff695299fcc"/>
+    <listType typeId="67df29f8-456b-4109-94aa-299f8c79303e" valueTypeId="521e6363-55c4-4920-bd18-980f2c8b94d5"/>
+    <managerType typeId="e6c613e6-b967-46b8-91e1-a48c70e77187" valueTypeId="d737985d-467a-405f-bcbd-a4df79adcc87"/>
+    <recordSetType typeId="83edcb31-f59e-4941-8151-30fe680fad2e" valueTypeId="5d0e2bde-e197-492f-82c8-10f4fab59f8b"/>
+    <recordKeyType typeId="305eda92-ab5c-4d58-a49a-d59712475756" valueTypeId="b3bb6f17-0695-4ff7-ac41-e3ac4a0a658e"/>
+    <recordType typeId="312bb045-120d-4eb3-92d2-720d17d8957e" valueTypeId="b328d69a-6431-4d0e-8619-69f6d22b63aa"/>
+    <recordManagerType typeId="a153389f-1c72-4aa3-9d2d-b0dff2059575" valueTypeId="ca60f088-5bef-4ff8-90e2-cfde562e2d80"/>
+  </producedTypes>
+  <name>BKM_СведенияОбОтпусках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения об отпусках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a62b07ef-d442-462d-a5ae-5617cbfbba18">
+    <name>ПлановаяПродолжительностьОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая продолжительность отпуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7c14ce4a-16b0-4187-866e-236378941687">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.BKM_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ce637a1-8d94-44a2-b1b7-3d58a6b89aae">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
