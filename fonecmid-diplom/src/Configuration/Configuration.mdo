@@ -1238,6 +1238,7 @@
   <documents>Document.BKM_НачислениеЗаработнойПлаты</documents>
   <documents>Document.BKM_НачислениеФиксированнойПремии</documents>
   <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
+  <documents>Document.ВКМ_ГрафикОтпусков</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
