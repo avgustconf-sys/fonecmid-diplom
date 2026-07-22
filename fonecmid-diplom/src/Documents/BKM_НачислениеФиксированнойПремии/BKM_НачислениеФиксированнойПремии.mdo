@@ -25,6 +25,9 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.BKM_НачислениеФиксированнойПремии.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.BKM_НачислениеФиксированнойПремии.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <registerRecords>CalculationRegister.BKM_ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.BKM_Удержания</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="0c55555c-fb39-4241-97e0-f06782d3fba6">

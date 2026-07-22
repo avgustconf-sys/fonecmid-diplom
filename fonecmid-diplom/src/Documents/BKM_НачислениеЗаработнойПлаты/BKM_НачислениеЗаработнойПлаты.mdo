@@ -25,6 +25,10 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.BKM_НачислениеЗаработнойПлаты.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.BKM_НачислениеЗаработнойПлаты.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <registerRecords>CalculationRegister.BKM_ОсновныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.BKM_ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.BKM_Удержания</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="dbb84eaa-4d0f-4d9e-a853-a16cc6d41566">
