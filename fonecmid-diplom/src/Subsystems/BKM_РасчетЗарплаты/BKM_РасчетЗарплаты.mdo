@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcac323d-fcf5-4028-b5b1-0931668dba4b">
+  <name>BKM_РасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.BKM_ГрафикОтпуска</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <content>Catalog.BKM_ГрафикиРабот</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>InformationRegister.BKM_ГрафикиРабот</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
+  <content>CalculationRegister.BKM_Удержания</content>
+</mdclass:Subsystem>
