@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aeb9e91-de95-45c4-a250-c636c7a1315e">
+  <producedTypes>
+    <objectType typeId="fc830eca-4489-4d57-ba80-2fcd3728ed88" valueTypeId="29bbcfa5-e94f-46bc-859e-6fba0784d44b"/>
+    <managerType typeId="2a73e818-feb4-495e-a499-0dc75f146f5c" valueTypeId="09b2f509-7a0c-42fa-90a6-ce61f1fbc201"/>
+  </producedTypes>
+  <name>BKM_РасчётыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM расчёты с сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="a4364883-6985-47cb-8e89-3253f41e7cf2">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

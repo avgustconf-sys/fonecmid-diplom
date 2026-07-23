@@ -10,4 +10,6 @@
   <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
   <content>Report.BKM_ВыработкаCпециалистов</content>
   <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>Report.BKM_РасчётыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
 </mdclass:Subsystem>

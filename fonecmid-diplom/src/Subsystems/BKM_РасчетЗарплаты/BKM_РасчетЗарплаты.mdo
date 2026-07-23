@@ -26,4 +26,5 @@
   <content>CalculationRegister.BKM_Удержания</content>
   <content>Report.BKM_ВыработкаCпециалистов</content>
   <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>Report.BKM_РасчётыССотрудниками</content>
 </mdclass:Subsystem>
