@@ -8,4 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>Report.BKM_ВыработкаCпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>

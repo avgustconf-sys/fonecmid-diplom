@@ -24,4 +24,6 @@
   <content>CalculationRegister.BKM_ОсновныеНачисления</content>
   <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
   <content>CalculationRegister.BKM_Удержания</content>
+  <content>Report.BKM_ВыработкаCпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>
