@@ -630,6 +630,10 @@
   <roles>Role.BKM_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</roles>
   <roles>Role.BKM_ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
   <roles>Role.BKM_ДобавлениеИзменениеДокументаГрафикОтпусков</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаВыработкаСпециалистов</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаАнализВыставленныхАктов</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаАнализРасчётыССотрудниками</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаАнализРасходЗапланированныхОтпусков</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
